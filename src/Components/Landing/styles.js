@@ -4,6 +4,10 @@ import Vector from "../../Illustration/vector.svg";
 export const Wrapper = styled.div`
   text-align: center;
   overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
   h1 {
     width: 686px;
     height: 47px;
@@ -248,6 +252,7 @@ export const Wrapper = styled.div`
 
   #hero {
     width: 800px;
+    margin: auto;
   }
 
   #lastSection {
